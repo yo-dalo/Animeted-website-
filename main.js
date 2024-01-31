@@ -32,7 +32,7 @@ const tl_2 = gsap.timeline({
    // markers: true
   }
 });
-tl_2.to(".sp_img", {
+tl_2.to(".yo_page_2 .sp_img", {
   translateX: "50vw",
   duration: 2
 
@@ -58,23 +58,6 @@ tl_3.to(".yo_page_3_box .box", {
 })
 
 
-
-const tl_4 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".yo_page_4",
-    start: "30% 30%",
-    end: "+=1000",
-    scrub: 2,
-    pin: true,
-    markers: true
-  }
-});
-tl_4.to(".yo_page_4 .sp_img", {
-  translateX: "50vw",
-  duration: 2,
-
-})
-
 gsap.to(".yo_page_4", {
  background:"#00FFBA",
  color:'black',
@@ -84,6 +67,49 @@ gsap.to(".yo_page_4", {
     start: "30% 30%",
     end: "+=1",
     scrub: 2,
+   // markers: true
+  }
+})
+
+
+
+
+
+
+
+const tl_4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".yo_page_4",
+    start: "30% 30%",
+    end: "+=1000",
+    scrub: 2,
+    pin: true,
+   // markers: true
+  }
+});
+tl_4.to(".yo_page_4 .sp_img", {
+  translateX: "50vw",
+  duration: 2,
+
+})
+
+
+
+
+
+
+const tl_5= gsap.timeline({
+  scrollTrigger: {
+    trigger: ".yo_page_5",
+    start: "30% 30%",
+    end: "+=1000",
+    scrub: 2,
+    pin: true,
     markers: true
   }
+});
+tl_5.to(".yo_page_5 .yo_page_3_box .box", {
+  translateX: "-155vw",
+  duration: 2,
+
 })

@@ -1,0 +1,9 @@
+.yo_page_5{
+  width: 100%;
+  height: 100vh;
+
+}
+.yo_page_5 .yo_page_3_box .box{
+  background: #FCFCFC00;
+  border: 1px solid blue;
+}

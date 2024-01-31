@@ -87,18 +87,18 @@
 
 
 
-.yo_page_cl{
+.yo_page_2 .yo_page_cl{
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
 }
-.yo_page_cl .img_box{
+.yo_page_2 .yo_page_cl .img_box{
   width: 100%;
   height: 100%;
   transform: translateX(-450vw) scale(7);
 }
 
-.yo_page_cl .img_box img{
+.yo_page_2 .yo_page_cl .img_box img{
   object-fit: fill;
 }
