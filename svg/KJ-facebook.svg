@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-KJ_-_facebook">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="KJ_-_facebook" data-name="KJ - facebook" clip-path="url(#clip-KJ_-_facebook)">
+    <g id="Ellipse_Fb" data-name="Ellipse Fb" fill="none" stroke="#fff" stroke-width="4">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="48" fill="none"/>
+    </g>
+    <path id="Icon_feather-facebook" data-name="Icon feather-facebook" d="M41.384,3H32.961C25.208,3,18.923,9.733,18.923,18.038v9.023H10.5V39.092h8.423V63.153H30.154V39.092h8.423l2.808-12.031H30.154V18.038a2.913,2.913,0,0,1,2.808-3.008h8.423Z" transform="translate(24.058 16.923)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

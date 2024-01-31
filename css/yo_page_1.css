@@ -1,0 +1,55 @@
+.yo_page_1 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/img/main_img.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9vw;
+
+}
+
+.yo_page_1 .logo {
+  width: 100%;
+  height: 50vw;
+  transform-origin: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
+}
+
+.b {
+  position: absolute;
+  
+  
+}
+
+
+
+
+
+.rol_img {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  bottom: 5vw;
+  right: 5vw;
+  animation: rol_img linear 15s infinite;
+}
+
+@keyframes rol_img {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(700deg);
+  }
+}
+
+;
