@@ -1,9 +1,29 @@
-.yo_page_5{
+.yo_page_5 {
   width: 100%;
   height: 100vh;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F5FF00;
+  background: #000000;
 }
-.yo_page_5 .yo_page_3_box .box{
-  background: #FCFCFC00;
-  border: 1px solid blue;
+
+.yo_page_5 .box {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 25vw;
+  gap: 1vw;
+}
+.yo_page_5 .box h1{
+  font-size: 8vw;
+  line-height: 0.9;
+  font-weight: 1000;
+}
+
+.yo_page_5 .box .m{
+  padding: 1vw 0;
 }
