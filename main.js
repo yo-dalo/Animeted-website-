@@ -26,7 +26,7 @@ const tl_2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".yo_page_2",
     start: "30% 30%",
-    end: "+=1000",
+    end: "+=4000",
     scrub: 2,
     pin: true,
    // markers: true
@@ -81,7 +81,7 @@ const tl_4 = gsap.timeline({
   scrollTrigger: {
     trigger: ".yo_page_4",
     start: "30% 30%",
-    end: "+=1000",
+    end: "+=4000",
     scrub: 2,
     pin: true,
    // markers: true
