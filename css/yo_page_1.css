@@ -1,7 +1,7 @@
 .yo_page_1 {
   width: 100%;
   min-height: 100vh;
-  background-image: url("/img/main_img.jpg");
+  background-image: url("../img/main_img.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
